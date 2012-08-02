@@ -1,0 +1,11 @@
+I made a JSON parser for use in my pure awk Twitter client. It worked with
+twitter. I got bored and went to rewrite it as general purpose and using
+recursive functions. That didn't go well, so I modified what I had to work
+better. It seems to work fine. I then made it use some recursion. It turns
+out that method is slower, and in places were my original re-write worked,
+it was even slower. So this is it. AWK isn't made for this really so whateves :P
+
+See the file LICENSE for that sort of stuff.
+
+-scott
+ 02aug2012
